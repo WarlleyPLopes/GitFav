@@ -13,8 +13,8 @@ export class GithubUser {
   }
 }
 
-//classe que vai conter a lógica dos dados
-//como os dados serão estruturados
+//class that will contain the data logic
+//how the data will be structured
 export class Favorites {
   constructor(root) {
     this.root = document.querySelector(root);
@@ -62,7 +62,7 @@ export class Favorites {
   }
 }
 
-//classe que vai criar a vizualização e o evento do html
+//class that will create the html visualization and events
 export class FavoritesView extends Favorites {
   constructor(root) {
     super(root);
